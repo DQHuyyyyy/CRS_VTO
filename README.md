@@ -9,9 +9,10 @@ Liên hệ để tải file products.faiss rồi để cùng trong thư mục in
 Cách sử dụng để chạy: 
   Step1: pipinstall file requirement.txt
   
-  Step2: kích venv: .\\.venv\\Scripts\\Activate.ps1 ( ở Cursor)
+  Step2: kích venv:
+          .\\.venv\\Scripts\\Activate.ps1 ( ở Cursor)
   
-          kích venv: venv\Scripts\Activate
+          venv\Scripts\Activate ( Visual Code)
           
   Step 3: pnpm dev
   
