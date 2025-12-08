@@ -1,0 +1,47 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+node_modules/
+.DS_Store
+.vscode/
+
+# Python build / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pypackages__/
+*.egg-info/
+dist/
+build/
+
+# Next.js / frontend
+.next/
+.vercel/
+.turbo/
+.parcel-cache/
+.cache/
+
+# Logs and temp
+logs/
+*.log
+tmp/
+temp/
+
+# Large model / data artifacts
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+*.onnx
+*.faiss
+*.npz
+*.npy
+
+# OS / editor
+Thumbs.db
+ehthumbs.db
+.idea/
