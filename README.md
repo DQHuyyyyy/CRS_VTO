@@ -10,6 +10,7 @@ Cách sử dụng để chạy:
   Step1: pipinstall file requirement.txt
   
   Step2: kích venv:
+  
           .\\.venv\\Scripts\\Activate.ps1 ( ở Cursor)
   
           venv\Scripts\Activate ( Visual Code)
