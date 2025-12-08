@@ -6,7 +6,8 @@ retrieval_service/vto_service.py (dòng ~27)
 
 Liên hệ để tải file products.faiss rồi để cùng trong thư mục index_retival
 
-Cách sử dụng để chạy: 
+Cách sử dụng để chạy:
+
   Step1: pipinstall file requirement.txt
   
   Step2: kích venv:
