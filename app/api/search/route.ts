@@ -23,7 +23,7 @@ async function classifyIntent(q: string): Promise<Intent> {
     const url = `${baseUrl.replace(/\/$/, "")}/qwen/intent`;
     
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(),3000); // 8s timeout (increased for Qwen)
+    const timeoutId = setTimeout(() => controller.abort(),8000); // 8s timeout (increased for Qwen)
     
     const res = await fetch(url, {
       method: "POST",
@@ -106,7 +106,7 @@ async function classifyAttributeChange(
     const url = `${baseUrl.replace(/\/$/, "")}/qwen/attribute-change`;
     
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 3000); // 8s timeout (increased for Qwen)
+    const timeoutId = setTimeout(() => controller.abort(), 8000); // 8s timeout (increased for Qwen)
     
     const res = await fetch(url, {
       method: "POST",
